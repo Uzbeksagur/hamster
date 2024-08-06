@@ -2,6 +2,8 @@ import asyncio
 from contextlib import suppress
 
 from bot.utils.launcher import process
+from keep_alive import keep_alive
+keep_alive()
 
 
 async def main():
